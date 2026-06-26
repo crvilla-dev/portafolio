@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Constanza Riquelme Villa — Diseñadora y Desarrolladora Web. Portfolio profesional de diseño UX/UI y desarrollo frontend." />
+  <meta name="author" content="Constanza Riquelme Villa" />
+  <meta name="theme-color" content="#0a0a0a" />
+
+  <!-- Open Graph / SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Constanza Riquelme Villa" />
+  <meta property="og:description" content="Creo sitios web funcionales, claros y centrados en la experiencia del usuario." />
+  <meta property="og:locale" content="es_CL" />
+
+  <title>Constanza Riquelme Villa</title>
+
+  <link rel="icon" href="assets/img/zorro_blackedge.png" type="image/png">
+
+  <!-- Bootstrap 5 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== SKIP LINK (ACCESIBILIDAD W3C) ===================== -->
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header role="banner">
+    <nav
+      class="navbar navbar-expand-lg fixed-top"
+      aria-label="Navegación principal"
+    >
+      <div class="container">
+        <!-- Logo / Brand -->
+        <a class="navbar-brand" href="#inicio" aria-label="Cony — Inicio">
+          <img
+            src="assets/img/logo_cony_blackedge.png"
+            alt="Cony"
+            class="navbar-logo"
+          >
+        </a>
+
+        <!-- Mobile toggle -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Abrir menú de navegación"
+        >
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+          <span class="toggler-bar"></span>
+        </button>
+
+        <!-- Nav links -->
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto gap-lg-2" role="list">
+            <li class="nav-item" role="listitem">
+              <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item" role="listitem">
+              <a class="nav-link" href="#intereses">Intereses</a>
+            </li>
+            <li class="nav-item" role="listitem">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item" role="listitem">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item" role="listitem">
+              <a class="nav-link nav-cta" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main id="main-content" role="main">
+
+    <!-- ===== HERO / PARALLAX ===== -->
+    <section
+      id="inicio"
+      class="hero-section"
+      aria-label="Presentación principal"
+    >
+      <!-- Parallax background layer -->
+      <div class="parallax-bg" aria-hidden="true" id="parallaxBg"></div>
+
+      <!-- Overlay gradient -->
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Content -->
+      <div class="hero-content container text-center">
+        <p class="hero-eyebrow">
+          <span aria-hidden="true">— </span>CREATIVIDAD · CÓDIGO · EXPERIENCIA<span aria-hidden="true"> —</span>
+        </p>
+
+        <h1 class="hero-title" aria-label="Diseño y Desarrollo Web">
+          <span class="hero-title-line" aria-hidden="true">CADA IDEA</span>
+          <span class="hero-title-line accent" aria-hidden="true">MERECE</span>
+          <span class="hero-title-line" aria-hidden="true">SU LUGAR</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Cada proyecto nace de una idea y cobra vida <br>
+a través del diseño, el código y la atención al detalle.
+        </p>
+
+        
+          href="#sobre-mi"
+          class="btn-hero"
+          aria-label="Explorar mi portfolio y conocer más"
+        >
+          Explorar
+          <i class="bi bi-arrow-down ms-2" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN 01: SOBRE MÍ ===== -->
+<section
+  id="sobre-mi"
+  class="section-sobre py-section"
+  aria-labelledby="h2-sobre"
+>
+  <div class="container">
+    <div class="row align-items-center gy-5">
+
+      <!-- Número -->
+      <div class="col-12 col-lg-2 d-flex align-items-start">
+        <div class="section-num" aria-hidden="true">01</div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="col-12 col-lg-5">
+
+        <p class="section-label mb-2" aria-hidden="true">
+          SOBRE MÍ
+        </p>
+
+        <h2 id="h2-sobre" class="section-title mb-4">
+          Soy Desarrolladora<br>
+          <span class="accent-text">y Diseñadora Web</span>
+        </h2>
+
+        <div class="sobre-body">
+          <p>
+            Enfocada en crear sitios funcionales, claros y accesibles.
+            Me interesa especialmente el diseño centrado en el usuario
+            y el desarrollo front-end, buscando siempre un equilibrio
+            entre estética y usabilidad.
+          </p>
+
+          <p>
+            Cada proyecto es una oportunidad para explorar nuevas
+            formas de conectar personas con experiencias digitales
+            memorables.
+          </p>
+        </div>
+
+        <div class="sobre-links">
+
+          <div
+            class="linkedin-card"
+            role="complementary"
+            aria-label="Perfil profesional"
+          >
+            
+              href="https://www.linkedin.com/in/constanza-riquelme-villa-a9274427a/"
+              class="linkedin-inner"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="linkedin-avatar">
+                <i class="bi bi-person-fill"></i>
+              </div>
+
+              <div class="linkedin-info">
+                <strong>Constanza Riquelme Villa</strong>
+                <span>Diseño &amp; Desarrollo Web</span>
+              </div>
+
+              <i class="bi bi-linkedin linkedin-icon"></i>
+            </a>
+          </div>
+
+          
+            href="#habilidades"
+            class="link-section"
+          >
+            Ver habilidades
+            <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- Imagen -->
+      <div class="col-12 col-lg-5">
+
+        <div class="about-image">
+
+          <img
+            src="assets/img/avatar.png"
+            alt="Constanza Riquelme Villa"
+          >
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    
+<!-- ===== SECCIÓN 02: INTERESES ===== -->
+<section
+  id="intereses"
+  class="section-interests py-section"
+  aria-labelledby="h2-intereses"
+>
+  <div class="container">
+    <div class="row gy-5">
+
+      <!-- Número -->
+      <div class="col-12 col-lg-2 d-flex align-items-start">
+        <div class="section-num" aria-hidden="true">02</div>
+      </div>
+
+      <!-- Contenido -->
+      <div class="col-12 col-lg-10">
+
+        <p class="section-label mb-2" aria-hidden="true">
+          INTERESES
+        </p>
+
+        <h2 id="h2-intereses" class="section-title mb-4">
+          Más allá del <span class="accent-text">código</span>
+        </h2>
+
+        <p class="section-intro mb-5">
+          La creatividad también nace fuera del editor. Estas son algunas de las cosas que
+          inspiran mi forma de diseñar, desarrollar y aprender constantemente.
+        </p>
+
+        <div class="row g-4">
+
+          <!-- Videojuegos -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-controller"></i>
+                  </div>
+
+                  <h3>Videojuegos</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Videojuegos</h4>
+
+                  <p>
+                    Me apasionan las experiencias inmersivas, el diseño de interfaces,
+                    la narrativa y la dirección artística que hacen memorable cada juego.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Actuación de voz -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-mic-fill"></i>
+                  </div>
+
+                  <h3>Actuación de voz</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Actuación de voz</h4>
+
+                  <p>
+                    Disfruto interpretar personajes, transmitir emociones
+                    y explorar distintas formas de expresión mediante la voz.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Música -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-music-note-beamed"></i>
+                  </div>
+
+                  <h3>Música</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Música</h4>
+
+                  <p>
+                    Siempre está presente mientras diseño o desarrollo.
+                    Es una parte importante de mi proceso creativo.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Diseño -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-palette-fill"></i>
+                  </div>
+
+                  <h3>Diseño</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Diseño</h4>
+
+                  <p>
+                    Me gusta experimentar con composición, tipografía,
+                    color e interfaces limpias centradas en el usuario.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Anime -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-stars"></i>
+                  </div>
+
+                  <h3>Anime &amp; Cultura Pop</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Anime &amp; Cultura Pop</h4>
+
+                  <p>
+                    Encuentro inspiración en la estética,
+                    el arte conceptual y las historias
+                    que construyen mundos memorables.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Aprendizaje -->
+          <div class="col-md-6 col-xl-4">
+            <div class="interest-card">
+              <div class="interest-card-inner">
+
+                <div class="interest-front">
+                  <div class="interest-icon">
+                    <i class="bi bi-book-half"></i>
+                  </div>
+
+                  <h3>Aprendizaje</h3>
+                </div>
+
+                <div class="interest-back">
+                  <h4>Aprendizaje</h4>
+
+                  <p>
+                    Siempre estoy explorando nuevas tecnologías,
+                    herramientas y formas de seguir creciendo
+                    profesionalmente.
+                  </p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===== SECCIÓN 03: HABILIDADES ===== -->
+
+    <section
+      id="habilidades"
+      class="section-skills py-section"
+      aria-labelledby="h2-habilidades"
+    >
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Número + Label -->
+          <div class="col-12 col-lg-2 d-flex align-items-start">
+            <div class="section-num" aria-hidden="true">03</div>
+          </div>
+
+          <div class="col-12 col-lg-10">
+            <p class="section-label mb-2" aria-hidden="true">HABILIDADES</p>
+            <h2 id="h2-habilidades" class="section-title mb-5">
+              Tecnologías <span class="accent-text">y Herramientas</span>
+            </h2>
+
+            <!-- Skills list -->
+            <div
+              class="skills-list"
+              role="list"
+              aria-label="Lista de habilidades técnicas con nivel de dominio"
+            >
+
+              <!-- Skill item -->
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">01</span>
+                  <h3 class="skill-name">HTML5</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="92"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Avanzado</span>
+                  <p class="skill-desc">Estructura semántica y accesible</p>
+                </div>
+              </article>
+
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">02</span>
+                  <h3 class="skill-name">CSS3</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="88"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Avanzado</span>
+                  <p class="skill-desc">Diseño responsivo y animaciones</p>
+                </div>
+              </article>
+
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">03</span>
+                  <h3 class="skill-name">JavaScript</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="75"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Intermedio</span>
+                  <p class="skill-desc">Interactividad y lógica frontend</p>
+                </div>
+              </article>
+
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">04</span>
+                  <h3 class="skill-name">WordPress</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="80"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Intermedio</span>
+                  <p class="skill-desc">CMS y personalización de temas</p>
+                </div>
+              </article>
+
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">05</span>
+                  <h3 class="skill-name">Diseño UI</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="85"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Avanzado</span>
+                  <p class="skill-desc">Interfaces limpias y funcionales</p>
+                </div>
+              </article>
+
+              <article class="skill-row" role="listitem">
+                <div class="skill-meta">
+                  <span class="skill-num" aria-hidden="true">06</span>
+                  <h3 class="skill-name">UX / DCU</h3>
+                </div>
+                <div class="skill-bar-wrap" aria-hidden="true">
+                  <div class="skill-bar" data-width="78"></div>
+                </div>
+                <div class="skill-right">
+                  <span class="skill-level">Intermedio</span>
+                  <p class="skill-desc">Experiencia centrada en el usuario</p>
+                </div>
+              </article>
+
+            </div>
+            <!-- /skills-list -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN 04: PROYECTOS ===== -->
+    <section
+      id="proyectos"
+      class="section-projects py-section"
+      aria-labelledby="h2-proyectos"
+    >
+      <div class="container">
+        <!-- Header row -->
+        <div class="row align-items-end mb-5">
+          <div class="col-auto">
+            <div class="section-num" aria-hidden="true">04</div>
+          </div>
+          <div class="col">
+            <p class="section-label mb-1" aria-hidden="true">PORTAFOLIO</p>
+            <h2 id="h2-proyectos" class="section-title mb-0">
+              Trabajos <span class="accent-text">Destacados</span>
+            </h2>
+          </div>
+          <!-- Nav arrows -->
+          <div class="col-auto d-flex gap-2" role="group" aria-label="Navegación de proyectos">
+            <button
+              class="proj-arrow"
+              id="projPrev"
+              aria-label="Proyecto anterior"
+              type="button"
+            >
+              <i class="bi bi-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button
+              class="proj-arrow"
+              id="projNext"
+              aria-label="Proyecto siguiente"
+              type="button"
+            >
+              <i class="bi bi-chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Projects grid -->
+        <div
+          class="projects-grid"
+          id="projectsGrid"
+          role="list"
+          aria-label="Proyectos de diseño y desarrollo web"
+        >
+
+          <a href="https://vidaindependiente.cl" target="_blank">
+            <article class="project-card" role="listitem" tabindex="0">
+            <div class="project-img">
+            <img
+                src="assets/img/vidaindependiente.cl.png"
+                alt="Inicio Fundación Vida Independiente"
+            >
+              <span class="project-tag">Web</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Fundación Vida Independiente</h3>
+              <p class="project-desc">Sitio corporativo con diseño responsivo y accesible, orientado a comunicar soluciones digitales.</p>
+              <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>HTML5</span><span>CSS3</span><span>Bootstrap</span>
+              </div>
+            </div>
+          </article>
+          </a>
+
+          <a href="https://simpleproducciones.cl" target="_blank">
+            <article class="project-card" role="listitem" tabindex="0">
+            <div class="project-img">
+            <img
+                src="assets/img/iniciosimpleproducciones.png"
+                alt="Inicio Simple Producciones"
+            >
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Rediseño Corporativo</h3>
+              <p class="project-desc">Rediseño completo de identidad visual digital con enfoque en UX y accesibilidad WCAG 2.1.</p>
+              <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>Figma</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+          </a>
+
+          <a href="https://gastronomiaorigen.cl" target="_blank">
+            <article class="project-card" role="listitem" tabindex="0">
+            <div class="project-img">
+            <img
+                src="assets/img/iniciogastronomiaorigen.png"
+                alt="Inicio Origen"
+            >
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Rediseño Corporativo</h3>
+              <p class="project-desc">Rediseño completo de identidad visual digital con enfoque en UX y accesibilidad WCAG 2.1.</p>
+              <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>Figma</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+          </a>
+
+          <a href="https://lafabricarental.cl" target="_blank">
+            <article class="project-card" role="listitem" tabindex="0">
+            <div class="project-img">
+            <img
+                src="assets/img/iniciofabricarental.png"
+                alt="Inicio La Fabrica Rental"
+            >
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Rediseño Corporativo</h3>
+              <p class="project-desc">Rediseño completo de identidad visual digital con enfoque en UX y accesibilidad WCAG 2.1.</p>
+              <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>Figma</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+          </a>
+
+          <a href="https://barrancon.cl" target="_blank">
+            <article class="project-card" role="listitem" tabindex="0">
+            <div class="project-img">
+            <img
+                src="assets/img/iniciobarrancon.png"
+                alt="Inicio Barrancon"
+            >
+              <span class="project-tag">UI/UX</span>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Rediseño Corporativo</h3>
+              <p class="project-desc">Rediseño completo de identidad visual digital con enfoque en UX y accesibilidad WCAG 2.1.</p>
+              <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>Figma</span><span>CSS3</span><span>JavaScript</span>
+              </div>
+            </div>
+          </article>
+          </a>
+
+          <a href="https://www.behance.net/constanriquelm3" target="_blank">
+    <article class="project-card" role="listitem" tabindex="0">
+        <div class="project-img">
+            <img
+                src="assets/img/perfilbehance.png"
+                alt="Portfolio Creative"
+            >
+            <span class="project-tag">
+                CMS
+            </span>
+        </div>
+
+        <div class="project-info">
+            <h3 class="project-title">
+                Portfolio Creative
+            </h3>
+            <p class="project-desc">
+                Portfolio para artista visual con gestión de contenido vía WordPress y tema personalizado.
+            </p>
+            <div class="project-techs" aria-label="Tecnologías usadas">
+                <span>WordPress</span>
+                <span>PHP</span>
+                <span>SCSS</span>
+            </div>
+        </div>
+    </article>
+</a>
+
+        </div>
+        <!-- /projects-grid -->
+      </div>
+    </section>
+
+    <!-- ===== SECCIÓN CONTACTO ===== -->
+<section
+  id="contacto"
+  class="section-contact py-section"
+  aria-labelledby="h2-contacto"
+>
+  <div class="container">
+    <div class="row gy-5">
+
+      <!-- Texto -->
+      <div class="col-12 col-lg-5">
+        <p class="section-label mb-3" aria-hidden="true">CONTACTO</p>
+        <h2 id="h2-contacto" class="contact-title">
+          ¿Tienes un proyecto<br />
+          <span class="accent-text">en mente?</span>
+        </h2>
+        <p class="contact-sub">
+          Hablemos. Estoy disponible para proyectos freelance<br />
+          y colaboraciones creativas.
+        </p>
+
+        <!-- Social links -->
+        <nav class="social-nav mt-5" aria-label="Redes sociales">
+          <a href="https://github.com/crvilla-dev" target="_blank" rel="noopener noreferrer" aria-label="Perfil de GitHub (abre en nueva pestaña)" class="social-link">
+            <i class="bi bi-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/constanza-riquelme-villa-a9274427a/" target="_blank" rel="noopener noreferrer" aria-label="Perfil de LinkedIn (abre en nueva pestaña)" class="social-link">
+            <i class="bi bi-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.behance.net/constanriquelm3" target="_blank" rel="noopener noreferrer" aria-label="Portafolio en Behance (abre en nueva pestaña)" class="social-link">
+            <i class="bi bi-behance" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </div>
+
+      <!-- Formulario -->
+      <div class="col-12 col-lg-7">
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formsubmit.co/consta.riquelmev@duocuc.cl"
+          method="POST"
+          novalidate
+        >
+          <!-- Evita que FormSubmit te redirija a su página -->
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-row">
+            <label for="formName">Nombre</label>
+            <input
+              type="text"
+              id="formName"
+              name="Nombre"
+              required
+              autocomplete="name"
+            >
+          </div>
+
+          <div class="form-row">
+            <label for="formEmail">Correo</label>
+            <input
+              type="email"
+              id="formEmail"
+              name="Correo"
+              required
+              autocomplete="email"
+            >
+          </div>
+
+          <div class="form-row">
+            <label for="formSubject">Asunto</label>
+            <input
+              type="text"
+              id="formSubject"
+              name="Asunto"
+              required
+            >
+          </div>
+
+          <div class="form-row">
+            <label for="formMessage">Mensaje</label>
+            <textarea
+              id="formMessage"
+              name="Mensaje"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-contact">
+            <span class="btn-text">Enviar mensaje</span>
+            <i class="bi bi-send ms-2" aria-hidden="true"></i>
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer" role="contentinfo">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+    <p class="mb-0 footer-brand">
+
+      <img
+        src="assets/img/zorro_blackedge.png"
+        alt="Logo personal"
+        class="footer-logo"
+      >
+
+      <span class="footer-name">
+        Constanza Riquelme Villa
+      </span>
+
+      <span class="footer-separator">—</span>
+
+      <span class="footer-role">
+        Diseño &amp; Desarrollo Web
+      </span>
+
+    </p>
+
+    <p class="mb-0 footer-copy">
+      <small>
+        &copy; <span id="currentYear"></span>
+        Constanza Riquelme Villa.
+        Hecho con <span aria-label="amor">♥</span> desde Chile.
+      </small>
+    </p>
+
+  </div>
+</footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmCQQe+5YRbQjpsFpuEE9P7zQTVm"
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="assets/js/main.js"></script>
+
+  <audio id="cardFlipSound" preload="auto">
+    <source src="assets/audio/simple-whoosh.mp3" type="audio/mpeg">
+  </audio>
+
+  <a href="#inicio" class="back-to-top" aria-label="Volver al inicio">
+    <i class="bi bi-arrow-up"></i>
+</a>
+</body>
+</html>
