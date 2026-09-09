@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "🚨 ALERTA",
+        "mensaje": "Se detectó un bloqueo artístico en la creadora.",
+        "modo": "morado"
+    },
+    {
+        "titulo": "🚨 MODO CAOS ACTIVADO",
+        "mensaje": "Alguien presionó un botón que claramente decía no presionar.",
+        "modo": "rojo"
+    },
+    {
+        "titulo": "⚠️ ERROR 404",
+        "mensaje": "La motivación de la diseñadora no fue encontrada.",
+        "modo": "glitch"
+    }
+]
